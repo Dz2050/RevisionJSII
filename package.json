@@ -1,0 +1,24 @@
+{
+  "name": "revisionjsii",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "build": {
+    "start": "parcel build index.html"
+  },
+  "author": "Dave",
+  "license": "ISC",
+  "dependencies": {
+    "fractional": "^1.0.0",
+    "parcel": "^2.12.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "sass": "^1.72.0",
+    "sass-loader": "^14.1.1",
+    "webpack": "^5.90.3"
+  }
+}
